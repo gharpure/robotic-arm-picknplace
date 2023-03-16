@@ -56,6 +56,6 @@ You can spawn random legos in random position using the `spawner_1` or `spawner_
 After you spawned lego blocks you can tell the `ur5` to pick them up
 
   ```
-  rosrun ur5_gazebo send_joint.py
+  rosrun ur5_gazebo send_joints.py
   ```
 ![image](https://user-images.githubusercontent.com/87241534/225562113-6310fc62-21c0-42ea-9f3d-befd97332889.png)
