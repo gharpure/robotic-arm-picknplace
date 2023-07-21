@@ -7,7 +7,11 @@
 
 ## Installation
 
-After downloading all the files, build using `catkin build`
+After downloading all the files, 
+Install Dependencies,
+rosdep install --from-paths src --ignore-src -r -y
+
+Build solution using `catkin build` command
 
   ```
   cd robotic-arm-picknplace
